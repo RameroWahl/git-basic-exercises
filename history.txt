@@ -1,0 +1,91 @@
+    1  sudo apt update
+    2  sudo apt full-upgrade
+    3  ls
+    4  ~
+    5  ls
+    6  home
+    7  ../
+    8  .
+    9  ./
+   10  ../
+   11  help
+   12  quit
+   13  exit
+   14  ls
+   15  exit
+   16  git clone https://github.com/Umuzi-org/Ramero-Wahl-219-level-1-programming-katas-python
+   17  dotnet tool install -g git-credential manager
+   18  sudo snap install dotnet-sdk
+   19  sudo snap install dotnet-sdk --classic
+   20  dotnet tool install -g git-credential manager
+   21  dotnet workload update
+   22  uninstall dotnet
+   23  sudo apt remove dotnet
+   24  dotnet
+   25  dotnet --info
+   26  sudo snap remove dotnet-sdk
+   27  sudo apt install dotnet
+   28  sudo apt install dotnet-sdk
+   29  dotnet
+   30  exit
+   31  dir
+   32  ls -a
+   33  mkdir git-basic-exercises
+   34  cd git-basic-exercises/
+   35  ls -a
+   36  git init
+   37  ls -a
+   38  git status
+   39  touch README.md
+   40  ls -a
+   41  git status
+   42  git log
+   43  git add README.md
+   44  git status
+   45  git rm --cached README.md
+   46  git status
+   47  git add README.md
+   48  git commit -m "initial commit"
+   49  git config --global user.email ramerowahl01@gmail.com
+   50  git config --global user.name RameroWahl
+   51  git commit -m "initial commit"
+   52  git log
+   53  q
+   54  nano README.md 
+   55  cat README.md 
+   56  git status 
+   57  git commit -m "second commit"
+   58  git add README.md 
+   59  git commit -m "second commit"
+   60  nano README.md 
+   61  git add README.md 
+   62  git commit -m "third commit"
+   63  git log
+   64  git checkout 7fd3d0677e03211520a015f48ec59eadedd4633e
+   65  cat README.md 
+   66  git checkout main
+   67  git checkout master
+   68  cat README.md 
+   69  gitbranch
+   70  git branch
+   71  git checkout -b milkshake-flavours
+   72  git branch
+   73  nano milkshakes.md
+   74  git status
+   75  git add milkshakes.md 
+   76  git commit "added initial flavours"
+   77  git commit -m "added initial flavours"
+   78  git log
+   79  git checkout master
+   80  git status
+   81  git log
+   82  git branch -b history
+   83  git checkout -b history
+   84  git checkout master
+   85  git log
+   86  git branch
+   87  history > history.txt
+   88  git commit -m "added history"
+   89  rm history.txt
+   90  git checkout history
+   91  history > history.txt
