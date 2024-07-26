@@ -89,3 +89,93 @@
    89  rm history.txt
    90  git checkout history
    91  history > history.txt
+   92  git add history.txt 
+   93  git commit -m "added history"
+   94  git log
+   95  git checkout main
+   96  git checkout master 
+   97  git checkout milkshake-flavours
+   98  git log
+   99  nano README.md 
+  100  git add README.md 
+  101  git commit -m "random readme changes"
+  102  git checkout history 
+  103  cat README.md 
+  104  rm README.md 
+  105  echo "booya" > README.md
+  106  git add README.md 
+  107  git commit -m "rewrote readme"
+  108  git checkout master 
+  109  ls
+  110  git log
+  111  git checkout milkshake-flavours 
+  112  ls
+  113  git log
+  114  git checkout history 
+  115  ls
+  116  git log
+  117  git checkout master 
+  118  git merge milkshake-flavours 
+  119  ls
+  120  git log
+  121  git merge history 
+  122  git branch
+  123  git status
+  124  git add README.md 
+  125  git merge history 
+  126  git commit -m "Resolution of Merge Conflict"
+  127  git merge history 
+  128  checkout history
+  129  git checkout history
+  130  git merge master
+  131  git log
+  132  git remote add origin https://github.com/RameroWahl/git-basic-exercises.git
+  133  git branch -M main
+  134  git push -u origin main
+  135  git config --global credential.credentialStore wincredman
+  136  git remote add origin https://github.com/RameroWahl/git-basic-exercises.git
+  137  git branch -M main
+  138  git push -u origin main
+  139  git remote add origin https://github.com/RameroWahl/git-basic-exercises.git
+  140  git branch -M main
+  141  git push -u origin main
+  142  ls
+  143  dir
+  144  git remote add origin https://github.com/RameroWahl/git-basic-exercises.git
+  145  git branch -M main
+  146  git push -u origin main
+  147  git checkout master
+  148  cat README.md 
+  149  nano README.md 
+  150  git add REA
+  151  git add README.md 
+  152  git commit -m Resolution Update
+  153  git commit -m "Resolution Update"
+  154* 
+  155  git push -u origin main
+  156  git push main
+  157  git push
+  158  git pull
+  159  git push origin main
+  160  checkout master
+  161  git checkout master
+  162  git chekout history
+  163  git checkout history
+  164  git status
+  165  git branch
+  166  git checkout main
+  167  ls
+  168  cat README.md 
+  169  nano README.md 
+  170  git push origin main
+  171  ls
+  172  add README.md 
+  173  git add README.md 
+  174  git commit
+  175  git push origin main
+  176  git push origin milkshake-flavours 
+  177  git branches
+  178  git branch
+  179  git checkout -b history
+  180  git checkout history 
+  181  history > history.txt
